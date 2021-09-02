@@ -209,6 +209,33 @@ footer .down {
 
 }
 
+@media(max-width: 1200px) {
+    header .middle {
+        display: none;
+    }
+    header .rightside li {
+        display:none
+    }
+    header .rightside li.menu {
+        display: block;
+        margin-right: 20px;
+    }
+
+}
+
+@media(max-widht: 600px) {
+    footer .buttom-area {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    footer .buttom-area a {
+        margin: 10px 20px;
+        width: calc(100vw - 60px);
+    }
+}
+
+
 
 
 
